@@ -22,7 +22,7 @@ async function iniciar(){
             return{descripcion,material,price: Number(price),image,a};
         })
 
-    const csvCollares = await fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQLucR9gteMQ1DZGvGekwEJTIopfRYCd53wVvEQE-elcOe9X4UmBj9xx4L6Fe_em716nADQ0He1pC4L/pub?output=csv")
+    const csvCollares = await fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vRAeCd_NaQoHo4-x_kQVPiePfnYI0hSz1okAYO3fZPRxthpumeuYFd8nbGPHkyiapvS9UnsFrdRtjpf/pub?output=csv")
     .then((res) => res.text());
     const listaDeCollares = csvCollares
         .split("\n")

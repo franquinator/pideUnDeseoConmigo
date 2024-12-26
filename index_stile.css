@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("fondo1.jpg");
+    background-image: url("fondo.png");
     background-repeat: repeat-y;
     background-size: 100%;
 }
